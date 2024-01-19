@@ -11,6 +11,7 @@
 		582699952B5AB3C000892554 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582699942B5AB3C000892554 /* ContentView.swift */; };
 		582699972B5AB3C300892554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582699962B5AB3C300892554 /* Assets.xcassets */; };
 		5826999A2B5AB3C300892554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582699992B5AB3C300892554 /* Preview Assets.xcassets */; };
+		582699A22B5AB50D00892554 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582699A12B5AB50D00892554 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		582699942B5AB3C000892554 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		582699962B5AB3C300892554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		582699992B5AB3C300892554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		582699A12B5AB50D00892554 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				582699922B5AB3C000892554 /* TradingCardAppApp.swift */,
+				582699A02B5AB4F900892554 /* DetailView */,
 				582699942B5AB3C000892554 /* ContentView.swift */,
 				582699962B5AB3C300892554 /* Assets.xcassets */,
 				582699982B5AB3C300892554 /* Preview Content */,
@@ -65,6 +68,14 @@
 				582699992B5AB3C300892554 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		582699A02B5AB4F900892554 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				582699A12B5AB50D00892554 /* DetailView.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				582699952B5AB3C000892554 /* ContentView.swift in Sources */,
+				582699A22B5AB50D00892554 /* DetailView.swift in Sources */,
 				582699932B5AB3C000892554 /* TradingCardAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
