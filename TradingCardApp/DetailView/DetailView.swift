@@ -8,28 +8,44 @@
 import SwiftUI
 
 struct DetailView: View {
-    var body: some View {
-        ZStack{
-            Rectangle()
-                .foregroundColor(.black)
-            .frame(width:330,height: 330)
-            
-            Rectangle()
-                .foregroundColor(.white)
-                .frame(width: 290, height: 290)
-            Rectangle()
-                .foregroundColor(.red)
-            .frame(width:260,height: 260)
-            
+    let imageName: String
+    let playerName: String
+    let playerPointsAvg: Double
+    let playerAssistsAvg: Double
+    let playerReboundsAvg: Double
+
+
+    
         
+    var body: some View {
+        VStack {
+            ZStack{
+                Rectangle()
+                    .foregroundColor(.black)
+                .frame(width:330,height: 330)
                 
-            
+                Rectangle()
+                    .foregroundColor(.white)
+                    .frame(width: 290, height: 290)
+                Rectangle()
+                    .foregroundColor(.red)
+                .frame(width:260,height: 260)
                 
-            
+                Image(imageName)
+                    .resizable()
+                    .frame(width:230, height:230)
+                
+                
+                    
+                
+                    
+                
+            }
+            Spacer()
         }
     }
 }
 
 #Preview {
-    DetailView()
+    DetailView(imageName: "Lowry", playerName: "Kyle Lowry", playerPointsAvg: 14.4, playerAssistsAvg: 6.4, playerReboundsAvg: 4.3)
 }
